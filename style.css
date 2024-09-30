@@ -3,8 +3,8 @@ body {
 }
 
 .float1 {
-    width: 178.7px;
-    height: 175px;
+    width: 33%;
+    height: 150px;
     border: 1px solid #000000;
     float: left;
     /* display: inline-block; */
