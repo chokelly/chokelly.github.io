@@ -147,11 +147,13 @@ body {
     float: left;
 }
 
-.float7 {
-    margin: 5px;
-    width: 100%;
-    height: 85px;
-    float: left;
+.floatgrey {
+    margin-right: -50px;
+    margin-bottom: 100px;
+    width: 25%;
+    height: 50px;
+    float: right;
+    text-align: center;
 }
   
 #floatclear {
@@ -171,6 +173,12 @@ body {
     display: none;
 }
 
+#img3 {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
 #floatresult:hover #img1 {
     width: 100%;
     height: 100%;
@@ -183,6 +191,12 @@ body {
     height: 100%;
     border-radius: 15px;
     display: block;
+}
+
+#img3 {
+    width: auto;
+    height: 100%;
+    border-radius: 15px;
 }
 
 a:link {
