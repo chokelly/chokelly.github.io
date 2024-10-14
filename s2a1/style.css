@@ -1,3 +1,46 @@
 body {
-    hehehehe
+    background: #4287f5;
+}
+
+#float1 {
+    position: fixed;
+    margin-top: 25vh;
+    margin-left: 25vw;
+    width: 50vw;
+    height :50vh;
+    float: left;
+    border-radius: 15px;
+    box-shadow: 2vw 2vh 15px #155dd1;
+    background: #fffdd0;
+}
+
+#float1:hover {
+    box-shadow: 2vw 2vh 15px #c90000;
+}
+
+#float1:hover {
+    box-shadow: none;
+}
+
+#img1 {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+#screencover {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+
+#float1:hover ~ #screencover {
+    background-color: #ff0000;
+}
+
+#float1:active ~ #screencover {
+    background-color: black;
 }
