@@ -41,7 +41,7 @@ body {
 
 #floatlabel1 {
     position: fixed;
-    width: 50vw;
+    width: 100vw;
     height: 10vh;
 }
 
@@ -51,7 +51,7 @@ a:hover ~ #floatlabel1 {
 
 #floatlabel2 {
     position: fixed;
-    width: 50vw;
+    width: 100vw;
     height: 10vh;
     display: none;
 }
@@ -62,7 +62,7 @@ a:hover ~ #floatlabel2 {
 
 #floatlabel3 {
     position: fixed;
-    width: 50vw;
+    width: 100vw;
     height: 10vh;
     display: none;
 }
