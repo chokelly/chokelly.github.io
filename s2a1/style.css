@@ -26,6 +26,7 @@ body {
 #float2 {
     position: fixed;
     margin-top: 15vw;
+    margin-left: 23vw;
     width: 50vw;
     height: 50vw;
     float: left;
@@ -39,6 +40,7 @@ body {
 }
 
 #float3 {
+    position: relative;
     margin-top: 15vw;
     width: 25vw;
     height: 50vw;
@@ -46,6 +48,7 @@ body {
 }
 
 #float4 {
+    position: relative;
     margin-top: 15vw;
     width: 25vw;
     height: 50vw;
@@ -120,6 +123,22 @@ a:hover ~ #floatlabel2 {
 #img3 {
     width: 100%;
     height: 100%;
+}
+
+a:hover ~ #float3 > #img3 {
+    display: none;
+}
+
+a:hover ~ #float4 > #img3 {
+    display: none;
+}
+
+#float2:target ~ #float3 > #img3 {
+    display: none;
+}
+
+#float2:target ~ #float4 > #img3 {
+    display: none;
 }
 
 #screencover {
