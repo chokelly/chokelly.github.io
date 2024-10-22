@@ -5,7 +5,7 @@ body {
 #float1 {
     position: fixed;
     margin-top: 15vw;
-    margin-left: 25vw;
+    margin-left: 23vw;
     width: 50vw;
     height: 50vw;
     float: left;
@@ -26,7 +26,7 @@ body {
 #float2 {
     position: fixed;
     margin-top: 15vw;
-    margin-left: 25vw;
+    margin-left: 23vw;
     width: 50vw;
     height: 50vw;
     float: left;
