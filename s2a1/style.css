@@ -26,7 +26,6 @@ body {
 #float2 {
     position: fixed;
     margin-top: 15vw;
-    margin-left: 23vw;
     width: 50vw;
     height: 50vw;
     float: left;
@@ -40,11 +39,17 @@ body {
 }
 
 #float3 {
-
+    margin-top: 15vw;
+    width: 25vw;
+    height: 50vw;
+    float: left;
 }
 
 #float4 {
-
+    margin-top: 15vw;
+    width: 25vw;
+    height: 50vw;
+    float: right;
 }
 
 #float5 {
@@ -110,6 +115,11 @@ a:hover ~ #floatlabel2 {
 
 #float2:target > #img2 {
     display: block;
+}
+
+#img3 {
+    width: 100%;
+    height: 100%;
 }
 
 #screencover {
