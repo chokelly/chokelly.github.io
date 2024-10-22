@@ -4,7 +4,7 @@ body {
 
 #float1 {
     position: fixed;
-    margin-top: 5vw;
+    margin-top: 15vw;
     margin-left: 25vw;
     width: 50vw;
     height: 50vw;
@@ -25,7 +25,7 @@ body {
 
 #float2 {
     position: fixed;
-    margin-top: 5vw;
+    margin-top: 15vw;
     margin-left: 25vw;
     width: 50vw;
     height: 50vw;
@@ -39,10 +39,22 @@ body {
     display: block;
 }
 
+#float3 {
+
+}
+
+#float4 {
+
+}
+
+#float5 {
+
+}
+
 #floatlabel1 {
     position: fixed;
     width: 100vw;
-    height: 10vh;
+    height: 10vw;
 }
 
 a:hover ~ #floatlabel1 {
@@ -52,7 +64,7 @@ a:hover ~ #floatlabel1 {
 #floatlabel2 {
     position: fixed;
     width: 100vw;
-    height: 10vh;
+    height: 10vw;
     display: none;
 }
 
@@ -63,7 +75,7 @@ a:hover ~ #floatlabel2 {
 #floatlabel3 {
     position: fixed;
     width: 100vw;
-    height: 10vh;
+    height: 10vw;
     display: none;
 }
 
