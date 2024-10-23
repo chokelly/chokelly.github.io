@@ -195,3 +195,21 @@ a:hover ~ #screencover {
 #float2:target ~ #screencover {
     background-color: black;
 }
+
+#finaljumpscare {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    background-image: url("emptybackground.png");
+}
+
+#float2:target ~ #finaljumpscare {
+    z-index: 0;
+    transition-property: background-image;
+    background-position: center;
+    background-image: url("mydawg.jpg");
+    transition-delay: 4.1s;
+}
