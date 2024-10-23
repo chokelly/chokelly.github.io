@@ -60,13 +60,28 @@ body {
     margin-top: 28vw;
     width: 20vw;
     height: 20vw;
-    right: 3vw;
+    left: 2vw;
     border-radius: 15px;
     box-shadow: 2vw 2vh 15px #a80000;
     display: none;
 }
 
 a:hover ~ #float5 {
+    display: block;
+}
+
+#float6 {
+    position: fixed;
+    margin-top: 28vw;
+    width: 20vw;
+    height: 20vw;
+    right: 3vw;
+    border-radius: 15px;
+    box-shadow: 2vw 2vh 15px #a80000;
+    display: none;
+}
+
+a:hover ~ #float6 {
     display: block;
 }
 
@@ -160,6 +175,10 @@ a:hover ~ #float4 > #img3 {
 }
 
 a:hover ~ #float5 > #img4 {
+    display: block;
+}
+
+a:hover ~ #float6 > #img4 {
     display: block;
 }
 
