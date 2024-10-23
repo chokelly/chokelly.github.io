@@ -1,5 +1,5 @@
 body {
-    background: #4287f5;
+    background-color: #4287f5;
 }
 
 #float1 {
@@ -10,17 +10,15 @@ body {
     height: 50vw;
     float: left;
     border-radius: 15px;
-    box-shadow: 2vw 2vh 15px #155dd1;
-    background: #fffdd0;
+    box-shadow: 2vw 2vw 15px #155dd1;
 }
 
 #float1:hover {
     box-shadow: 2vw 2vh 15px #a80000;
 }
 
-/* !!!!!!!!!!!?????????????????????????????????? */
 #float2:target ~ a > #float1 {
-    box-shadow: none;
+    display: none;
 }
 
 #float2 {
@@ -31,7 +29,6 @@ body {
     height: 50vw;
     float: left;
     border-radius: 15px;
-    background: #fffdd0;
     display: none;
 }
 
@@ -62,7 +59,7 @@ body {
     height: 20vw;
     float: left;
     border-radius: 15px;
-    box-shadow: 1vw 1vh 10px #a80000;
+    box-shadow: 1vw 1vw 10px #a80000;
     display: none;
 }
 
@@ -77,7 +74,7 @@ a:hover ~ #float5 {
     height: 20vw;
     right: 3vw;
     border-radius: 15px;
-    box-shadow: 1vw 1vh 10px #a80000;
+    box-shadow: 1vw 1vw 10px #a80000;
     display: none;
 }
 
