@@ -62,7 +62,7 @@ body {
     height: 20vw;
     float: left;
     border-radius: 15px;
-    box-shadow: 2vw 2vh 10px #a80000;
+    box-shadow: 1vw 1vh 10px #a80000;
     display: none;
 }
 
@@ -77,7 +77,7 @@ a:hover ~ #float5 {
     height: 20vw;
     right: 3vw;
     border-radius: 15px;
-    box-shadow: 2vw 2vh 10px #a80000;
+    box-shadow: 1vw 1vh 10px #a80000;
     display: none;
 }
 
