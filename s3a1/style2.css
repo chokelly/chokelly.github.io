@@ -1,0 +1,344 @@
+body {
+    background-color: #f7adbc;
+    margin: 0px;
+}
+
+#titlefloat {
+    position: relative;
+    width: 85%;
+    height: 65px;
+    background-color: bisque;
+    text-align: center;
+    box-shadow: 15px 15px 15px #e8899c;
+    border-radius: 15px;
+    top: 7%;
+    left: 7%;
+}
+
+#avatarfloat {
+    position: relative;
+    width: 45%;
+    height: 70%;
+    background-color: bisque;
+    box-shadow: 15px 15px 15px #e8899c;
+    border-radius: 15px;
+    float: left;
+    top: 15%;
+    left: 3%;
+}
+
+#invisiblebar {
+    width: 85%;
+    top: 5%;
+    height: 10%;
+    left: 7.5%;
+    position: relative;
+}
+
+.optionsscreen {
+    width: 85%;
+    height: 80%;
+    background-color: crimson;
+    border-radius: 15px;
+    top: 5%;
+    left: 7.5%;
+    position: relative;
+}
+
+#eyesscreen {
+    display: none;
+}
+
+#mouthscreen {
+    display: none;
+}
+
+#optionsbox1 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+#optionsbox2 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+#optionsbox3 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+#optionsbox4 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+#optionsbox5 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+input {
+    /* display: none; */
+}
+label {
+    cursor: pointer;
+}
+  
+.somethingboxtopleft {
+    width: 42%;
+    height: 45%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px #ab0929;
+    float: left;
+    position: relative;
+    left: 5%;
+    top: 3%;
+    text-align: center;
+}
+.somethingboxtopright {
+    width: 42%;
+    height: 45%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px #ab0929;
+    float: right;
+    position: relative;
+    right: 5%;
+    top: 3%;
+    text-align: center;
+}
+.somethingboxbottomleft {
+    width: 42%;
+    height: 45%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px #ab0929;
+    float: left;
+    position: relative;
+    left: 5%;
+    bottom: -7%;
+    text-align: center;
+}
+.somethingboxbottomright {
+    width: 42%;
+    height: 45%;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px #ab0929;
+    float: right;
+    position: relative;
+    right: 5%;
+    bottom: -7%;
+    text-align: center;
+}
+/* eyes screen */
+#eyesbox1 {
+    display: block;
+}
+#eyesbox2 {
+    display: block;
+}
+#eyesbox3 {
+    display: block;
+}
+#eyesbox4 {
+    display: block;
+}
+
+#eyesoption1 {
+    display: none;
+}
+#eyesoption2 {
+    display: none;
+}
+#eyesoption3 {
+    display: none;
+}
+#eyesoption4 {
+    display: none;
+}
+
+#eyesradio:checked ~ #eyesscreen {
+    display: block;
+}
+
+#eyes1radio:checked ~ #eyesoption1 {
+    display: block;
+}
+#eyes2radio:checked ~ #eyesoption2 {
+    display: block;
+}
+#eyes3radio:checked ~ #eyesoption3 {
+    display: block;
+}
+#eyes4radio:checked ~ #eyesoption4 {
+    display: block;
+}
+  
+/* mouth screen */
+#mouthbox1 {
+    display: block;
+}
+#mouthbox2 {
+    display: block;
+}
+#mouthbox3 {
+    display: block;
+}
+#mouthbox4 {
+    display: block;
+}
+
+#mouthoption1 {
+    display: none;
+}
+#mouthoption2 {
+    display: none;
+}
+#mouthoption3 {
+    display: none;
+}
+#mouthoption4 {
+    display: none;
+}
+
+#mouthradio:checked ~ #mouthscreen {
+    display: block;
+}
+
+#mouth1radio:checked ~ #mouthoption1 {
+    display: block;
+}
+#mouth2radio:checked ~ #mouthoption2 {
+    display: block;
+}
+#mouth3radio:checked ~ #mouthoption3 {
+    display: block;
+}
+#mouth4radio:checked ~ #mouthoption4 {
+    display: block;
+}
+
+/* hair screen */
+
+#optionsfloat {
+    position: relative;
+    width: 45%;
+    height: 70%;
+    background-color: bisque;
+    box-shadow: 15px 15px 15px #e8899c;
+    border-radius: 15px;
+    float: right;
+    top: 15%;
+    right: 3%;
+}
+
+#avatar {
+    width: 32vw;
+    height: auto;
+    position: absolute;
+    left: calc(25vw - 20vw);
+    top: calc(25vw - 12vw);
+}
+
+.optionsscreen {
+    width: 85%;
+    height: 80%;
+    background-color: crimson;
+    border-radius: 15px;
+    top: 5%;
+    left: 7.5%;
+    position: relative;
+}
+
+#invisiblebar {
+    width: 85%;
+    top: 5%;
+    height: 10%;
+    left: 7.5%;
+    position: relative;
+}
+
+#optionsbox1 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+#optionsbox2 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+#optionsbox3 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+#optionsbox4 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+#optionsbox5 {
+    width: 20%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+}
+
+.somethingoption {
+    left: calc(25vw - 21vw);
+    top:  calc(25vw - 12vw);
+    width: 75%;
+    height: auto;
+    position: absolute;
+}
+
+
+
+#hairoption1 {
+    display: none;
+}
+
+#hairoption2 {
+    display: none;
+}
+
+#hairoption3 {
+    display: none;
+}
+
+#hairoption4 {
+    display: none;
+}
+
