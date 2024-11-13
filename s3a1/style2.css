@@ -48,11 +48,20 @@ body {
 #eyesscreen {
     display: none;
 }
-
 #mouthscreen {
     display: none;
 }
+#hairscreen {
+    display: none;
+}
+#glassesscreen {
+    display: none;
+}
+#hatscreen {
+    display: none;
+}
 
+/* main options */
 #optionsbox1 {
     width: 20%;
     height: 100%;
@@ -60,7 +69,6 @@ body {
     border-radius: 15px;
     float: left;
 }
-
 #optionsbox2 {
     width: 20%;
     height: 100%;
@@ -68,7 +76,6 @@ body {
     border-radius: 15px;
     float: left;
 }
-
 #optionsbox3 {
     width: 20%;
     height: 100%;
@@ -76,7 +83,6 @@ body {
     border-radius: 15px;
     float: left;
 }
-
 #optionsbox4 {
     width: 20%;
     height: 100%;
@@ -84,7 +90,6 @@ body {
     border-radius: 15px;
     float: left;
 }
-
 #optionsbox5 {
     width: 20%;
     height: 100%;
@@ -94,12 +99,12 @@ body {
 }
 
 input {
-    /* display: none; */
+    display: none;
 }
 label {
     cursor: pointer;
 }
-  
+
 .somethingboxtopleft {
     width: 42%;
     height: 45%;
@@ -237,6 +242,136 @@ label {
 }
 
 /* hair screen */
+#hairbox1 {
+    display: block;
+}
+#hairbox2 {
+    display: block;
+}
+#hairbox3 {
+    display: block;
+}
+#hairbox4 {
+    display: block;
+}
+
+#hairoption1 {
+    display: none;
+}
+#hairoption2 {
+    display: none;
+}
+#hairoption3 {
+    display: none;
+}
+#hairoption4 {
+    display: none;
+}
+
+#hairradio:checked ~ #hairscreen {
+    display: block;
+}
+
+#hair1radio:checked ~ #hairoption1 {
+    display: block;
+}
+#hair2radio:checked ~ #hairoption2 {
+    display: block;
+}
+#hair3radio:checked ~ #hairoption3 {
+    display: block;
+}
+#hair4radio:checked ~ #hairoption4 {
+    display: block;
+}
+
+/* glasses screen */
+#glassesbox1 {
+    display: block;
+}
+#glassesbox2 {
+    display: block;
+}
+#glassesbox3 {
+    display: block;
+}
+#glassesbox4 {
+    display: block;
+}
+
+#glassesoption1 {
+    display: none;
+}
+#glassesoption2 {
+    display: none;
+}
+#glassesoption3 {
+    display: none;
+}
+#glassesoption4 {
+    display: none;
+}
+
+#glassesradio:checked ~ #glassesscreen {
+    display: block;
+}
+
+#glasses1radio:checked ~ #glassesoption1 {
+    display: block;
+}
+#glasses2radio:checked ~ #glassesoption2 {
+    display: block;
+}
+#glasses3radio:checked ~ #glassesoption3 {
+    display: block;
+}
+#glasses4radio:checked ~ #glassesoption4 {
+    display: block;
+}
+
+/* hat screen */
+#hatbox1 {
+    display: block;
+}
+#hatbox2 {
+    display: block;
+}
+#hatbox3 {
+    display: block;
+}
+#hatbox4 {
+    display: block;
+}
+
+#hatoption1 {
+    display: none;
+}
+#hatoption2 {
+    display: none;
+}
+#hatoption3 {
+    display: none;
+}
+#hatoption4 {
+    display: none;
+}
+
+#hatradio:checked ~ #hatscreen {
+    display: block;
+}
+
+#hat1radio:checked ~ #hatoption1 {
+    display: block;
+}
+#hat2radio:checked ~ #hatoption2 {
+    display: block;
+}
+#hat3radio:checked ~ #hatoption3 {
+    display: block;
+}
+#hat4radio:checked ~ #hatoption4 {
+    display: block;
+}
 
 #optionsfloat {
     position: relative;
@@ -323,22 +458,3 @@ label {
     height: auto;
     position: absolute;
 }
-
-
-
-#hairoption1 {
-    display: none;
-}
-
-#hairoption2 {
-    display: none;
-}
-
-#hairoption3 {
-    display: none;
-}
-
-#hairoption4 {
-    display: none;
-}
-
