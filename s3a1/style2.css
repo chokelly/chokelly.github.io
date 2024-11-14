@@ -110,11 +110,14 @@ label {
     height: 45%;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 15px 15px 15px #ab0929;
+    box-shadow: 10px 10px 15px #ab0929;
     float: left;
     position: relative;
     left: 5%;
     top: 3%;
+    color: crimson;
+    font-family: Playwrite GB S, cursive;
+    font-size: 32px;
     text-align: center;
 }
 .somethingboxtopright {
@@ -122,11 +125,14 @@ label {
     height: 45%;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 15px 15px 15px #ab0929;
+    box-shadow: 10px 10px 15px #ab0929;
     float: right;
     position: relative;
     right: 5%;
     top: 3%;
+    color: crimson;
+    font-family: Playwrite GB S, cursive;
+    font-size: 32px;
     text-align: center;
 }
 .somethingboxbottomleft {
@@ -134,11 +140,14 @@ label {
     height: 45%;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 15px 15px 15px #ab0929;
+    box-shadow: 10px 10px 15px #ab0929;
     float: left;
     position: relative;
     left: 5%;
     bottom: -7%;
+    color: crimson;
+    font-family: Playwrite GB S, cursive;
+    font-size: 32px;
     text-align: center;
 }
 .somethingboxbottomright {
@@ -146,13 +155,17 @@ label {
     height: 45%;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 15px 15px 15px #ab0929;
+    box-shadow: 10px 10px 15px #ab0929;
     float: right;
     position: relative;
     right: 5%;
     bottom: -7%;
+    color: crimson;
+    font-family: Playwrite GB S, cursive;
+    font-size: 32px;
     text-align: center;
 }
+
 /* eyes screen */
 #eyesbox1 {
     display: block;
@@ -183,6 +196,9 @@ label {
 #eyesradio:checked ~ #eyesscreen {
     display: block;
 }
+/* #eyesradio:checked ~ #invisiblebar > #optionsbox1 {
+    background-color: #f7ccc8;
+} */
 
 #eyes1radio:checked ~ #eyesoption1 {
     display: block;
