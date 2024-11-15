@@ -39,7 +39,7 @@ body {
     width: 85%;
     height: 80%;
     background-color: crimson;
-    border-radius: 15px;
+    border-radius: 0 0 15px 15px;
     top: 5%;
     left: 7.5%;
     position: relative;
@@ -68,6 +68,8 @@ body {
     background-color: white;
     border-radius: 15px;
     float: left;
+    text-align: center;
+    font-family: Playwrite GB S, cursive;
 }
 #optionsbox2 {
     width: 20%;
@@ -75,6 +77,8 @@ body {
     background-color: white;
     border-radius: 15px;
     float: left;
+    text-align: center;
+    font-family: Playwrite GB S, cursive;
 }
 #optionsbox3 {
     width: 20%;
@@ -82,6 +86,8 @@ body {
     background-color: white;
     border-radius: 15px;
     float: left;
+    text-align: center;
+    font-family: Playwrite GB S, cursive;
 }
 #optionsbox4 {
     width: 20%;
@@ -89,6 +95,8 @@ body {
     background-color: white;
     border-radius: 15px;
     float: left;
+    text-align: center;
+    font-family: Playwrite GB S, cursive;
 }
 #optionsbox5 {
     width: 20%;
@@ -96,6 +104,8 @@ body {
     background-color: white;
     border-radius: 15px;
     float: left;
+    text-align: center;
+    font-family: Playwrite GB S, cursive;
 }
 
 input {
@@ -406,7 +416,7 @@ label {
     height: auto;
     position: absolute;
     left: calc(25vw - 20vw);
-    top: calc(25vw - 12vw);
+    top: calc(30vw - 28vw);
 }
 
 .optionsscreen {
@@ -430,47 +440,67 @@ label {
 #optionsbox1 {
     width: 20%;
     height: 100%;
-    background-color: white;
-    border-radius: 15px;
+    background-color: #ffb5d9;
+    border-radius: 15px 15px 0 0;
     float: left;
 }
 
 #optionsbox2 {
     width: 20%;
     height: 100%;
-    background-color: white;
-    border-radius: 15px;
+    background-color: #ff87b3;
+    border-radius: 15px 15px 0 0;
     float: left;
 }
 
 #optionsbox3 {
     width: 20%;
     height: 100%;
-    background-color: white;
-    border-radius: 15px;
+    background-color: #ff69a0;
+    border-radius: 15px 15px 0 0;
     float: left;
 }
 
 #optionsbox4 {
     width: 20%;
     height: 100%;
-    background-color: white;
-    border-radius: 15px;
+    background-color: #f7347c;
+    border-radius: 15px 15px 0 0;
     float: left;
 }
 
 #optionsbox5 {
     width: 20%;
     height: 100%;
-    background-color: white;
-    border-radius: 15px;
+    background-color: crimson;
+    border-radius: 15px 15px 0 0;
     float: left;
 }
 
 .somethingoption {
     left: calc(25vw - 21vw);
-    top:  calc(25vw - 12vw);
+    top:  calc(25vw - 22vw);
     width: 75%;
     height: auto;
     position: absolute;
+}
+
+#eyesscreen {
+    background-color: #ffb5d9;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#mouthscreen {
+    background-color: #ff87b3;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#hairscreen {
+    background-color: #ff69a0;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#glassesscreen {
+    background-color: #f7347c;
+    border-radius: 0px 0px 15px 15px;
 }
