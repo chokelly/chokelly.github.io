@@ -15,6 +15,14 @@ body {
     left: 7%;
 }
 
+.somethingoption {
+    left: calc(25vw - 21vw);
+    top:  calc(25vw - 23vw);
+    width: 75%;
+    height: auto;
+    position: absolute;
+}
+
 #avatarfloat {
     position: relative;
     width: 45%;
@@ -25,6 +33,14 @@ body {
     float: left;
     top: 15%;
     left: 3%;
+}
+
+#avatar {
+    width: 32vw;
+    height: auto;
+    position: absolute;
+    left: calc(25vw - 20vw);
+    top: calc(30vw - 28vw);
 }
 
 #invisiblebar {
@@ -106,6 +122,11 @@ body {
     float: left;
     text-align: center;
     font-family: Playwrite GB S, cursive;
+}
+
+#mainoption {
+    width: 100%;
+    height: auto;
 }
 
 input {
@@ -206,9 +227,6 @@ label {
 #eyesradio:checked ~ #eyesscreen {
     display: block;
 }
-/* #eyesradio:checked ~ #invisiblebar > #optionsbox1 {
-    background-color: #f7ccc8;
-} */
 
 #eyes1radio:checked ~ #eyesoption1 {
     display: block;
@@ -411,14 +429,6 @@ label {
     right: 3%;
 }
 
-#avatar {
-    width: 32vw;
-    height: auto;
-    position: absolute;
-    left: calc(25vw - 20vw);
-    top: calc(30vw - 28vw);
-}
-
 .optionsscreen {
     width: 85%;
     height: 80%;
@@ -477,14 +487,6 @@ label {
     float: left;
 }
 
-.somethingoption {
-    left: calc(25vw - 21vw);
-    top:  calc(25vw - 22vw);
-    width: 75%;
-    height: auto;
-    position: absolute;
-}
-
 #eyesscreen {
     background-color: #ffb5d9;
     border-radius: 0px 0px 15px 15px;
@@ -502,5 +504,10 @@ label {
 
 #glassesscreen {
     background-color: #f7347c;
+    border-radius: 0px 0px 15px 15px;
+}
+
+#hatscreen {
+    background-color: crimson;
     border-radius: 0px 0px 15px 15px;
 }
