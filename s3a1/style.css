@@ -15,6 +15,50 @@ body {
     left: 7%;
 }
 
+#buttonsfloat {
+    margin-left: 1.5%;
+    position: relative;
+    padding: 1px;
+    width: 97%;
+    height: 55px;
+    background-color: bisque;
+    box-shadow: 15px 15px 15px #e8899c;
+    border-radius: 15px;
+    top: 0;
+}
+
+#button1 {
+    margin-top: 8px;
+    margin-left: 3%;
+    width: 72px;
+    height: 65%;
+    background-color: crimson;
+    color: white;
+    font-family: Playwrite GB S, cursive;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 7px 7px 7px #ebc291;
+    border-radius: 15px;
+    float: left;
+}
+
+#button2 {
+    margin-top: 8px;
+    margin-right: 3%;
+    width: 70px;
+    height: 65%;
+    background-color: crimson;
+    color: white;
+    font-family: Playwrite GB S, cursive;
+    font-size: 18px;
+    text-align: center;
+    box-shadow: 7px 7px 7px #ebc291;
+    border-radius: 15px;
+    float: right;
+}
+
+/* !! FOR GAME PAGE ONLY !! */
+
 .somethingoption {
     left: calc(25vw - 21vw);
     top:  calc(25vw - 23vw);
@@ -85,7 +129,6 @@ body {
     border-radius: 15px;
     float: left;
     text-align: center;
-    font-family: Playwrite GB S, cursive;
 }
 #optionsbox2 {
     width: 20%;
@@ -94,7 +137,6 @@ body {
     border-radius: 15px;
     float: left;
     text-align: center;
-    font-family: Playwrite GB S, cursive;
 }
 #optionsbox3 {
     width: 20%;
@@ -103,7 +145,6 @@ body {
     border-radius: 15px;
     float: left;
     text-align: center;
-    font-family: Playwrite GB S, cursive;
 }
 #optionsbox4 {
     width: 20%;
@@ -112,7 +153,6 @@ body {
     border-radius: 15px;
     float: left;
     text-align: center;
-    font-family: Playwrite GB S, cursive;
 }
 #optionsbox5 {
     width: 20%;
@@ -121,7 +161,6 @@ body {
     border-radius: 15px;
     float: left;
     text-align: center;
-    font-family: Playwrite GB S, cursive;
 }
 
 #mainoption {
@@ -510,4 +549,21 @@ label {
 #hatscreen {
     background-color: crimson;
     border-radius: 0px 0px 15px 15px;
+}
+
+/* !! FOR SCRIPT & DOCUMENT PAGES !! */
+
+#textfloat {
+    position: relative;
+    padding: 5%;
+    width: 80%;
+    height: 70%;
+    background-color: bisque;
+    box-shadow: 15px 15px 15px #e8899c;
+    border-radius: 15px;
+    float: left;
+    top: 15%;
+    left: 5%;
+    color: crimson;
+    font-family: Playwrite GB S, cursive;
 }
