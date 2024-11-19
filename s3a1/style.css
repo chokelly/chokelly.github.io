@@ -566,7 +566,7 @@ label {
     left: 5%;
     color: crimson;
     font-family: Playwrite GB S, cursive;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 45px;
 }
 
@@ -593,4 +593,54 @@ label {
 }
 #clickonhat {
     background-color: crimson;
+}
+
+#topleftfloat {
+    left: 20%;
+    top: 5%;
+    margin-bottom: 5%;
+    width: 45%;
+    height: 47%;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px #ebc291;
+    float: left;
+    background: bisque;
+}
+
+#toprightfloat {
+    right: 20%;
+    top: 5%;
+    margin-bottom: 5%;
+    width: 45%;
+    height: 47%;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px #ebc291;
+    float: right;
+    background: bisque;
+}
+
+#bottomleftfloat {
+    left: 20%;
+    width: 45%;
+    height: 47%;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px #ebc291;
+    float: left;
+    background: bisque;
+}
+
+#bottomrightfloat {
+    right: 20%;
+    width: 45%;
+    height: 47%;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px #ebc291;
+    float: right;
+    background: bisque;
+}
+
+#docuimage {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px;
 }
