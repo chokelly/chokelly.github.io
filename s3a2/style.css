@@ -4,11 +4,11 @@ body {
     cursor: url('paw.png'), auto;
 }
 
-.wraps{
-width:100vw;
-height: 100vh;
-background-color: #ffaab8;
-position: relative;
+.wraps {
+    width:100vw;
+    height: 100vh;
+    background-color: #ffaab8;
+    position: relative;
 }
 
 #wrap2 {
@@ -57,8 +57,7 @@ position: relative;
     font-size: 5vw;
     color: white;
     position: absolute;
-    top: calc(50vh - 25vh);
-    left: calc(50vh - 30vh);
+    padding: 7vw;
     text-align: center;
 }
 
@@ -79,21 +78,33 @@ position: relative;
     font-weight: bold;
     font-size: 1.5vw;
     color: white;
-    position: absolute;
-    top: 5vh;
+    position: relative;
+    top: 3vh;
     margin: 2vw;
     text-align: left;
+    line-height: 145%;
+}
+
+#titletext7 {
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 1.25vw;
+    color: white;
+    position: relative;
+    margin: 2vw;
+    text-align: left;
+    line-height: 145%;
 }
 
 #titletext5 {
     font-family: Garamond;
     font-weight: bold;
-    font-size: 1.5vw;
+    font-size: 1.25vw;
     color: white;
     position: relative;
-    top: 25vh;
     margin: 5vw;
     text-align: left;
+    line-height: 145%;
 }
 
 #titletext6 {
@@ -107,8 +118,6 @@ position: relative;
     left: calc(50vw - 28vw);
     z-index: -1;
 }
-
-
 
 #puppy1{
     width: 60vw;
@@ -152,36 +161,42 @@ position: relative;
 }
 
 
-#user1 {
+#lockscreen {
     width: auto;
     height: 80vh;
     position: relative;
     background: 0;
+    border-radius: 25px;
 }
 
-#user2 {
+#homescreen {
     width: auto;
     height: 80vh;
     position: relative;
+    border-radius: 25px;
 }
 
-#user1:hover {
+#lockscreen:hover {
     box-shadow: 0 0 20px 10px rgba(255, 255, 242, 0.5), 0 0 40px 20px rgba(255, 255, 242, 0.3);
 }
 
-#user2:hover {
+#homescreen:hover {
     box-shadow: 0 0 20px 10px rgba(255, 255, 242, 0.5), 0 0 40px 20px rgba(255, 255, 242, 0.3);
 }
 
 
 #button {
     width: 20vw;
-    height: 12vh;
+    height: 15vh;
     background-color: #ffaab8;
     position: fixed;
     top: 50vh;
     left: 38vw;
     border-radius: 6vh;
+}
+
+#button:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 242, 0.5), 0 0 40px 20px rgba(255, 255, 242, 0.3);
 }
 
 #buttontext {
