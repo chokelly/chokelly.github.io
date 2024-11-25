@@ -1,3 +1,195 @@
 body {
-    background-color: #88cbff;
+    margin: 0;
+    padding: 0;
+    cursor: url('paw.png'), auto;
+}
+
+.wraps{
+width:100vw;
+height: 100vh;
+background-color: #ffaab8;
+position: relative;
+}
+
+#wrap2 {
+    background-color: #ffc2cc;
+}
+
+#wrap4 {
+    background-color: #ffc2cc;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+#wrap5 {
+    background-color: #fdd490;
+    width: 100vw;
+    height: 500vh;
+    position: absolute;
+    z-index: -2;
+    top:0;
+}
+
+#titlebox {
+    width: 30vw;
+    height: 80vh;
+    border-radius: 20px;
+    background-color: #ffaab8;
+    position: relative;
+    left:0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(0, 0, 0, 0.1);
+}
+
+#titletext1 {
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 5vw;
+    color: white;
+    position: relative;
+    top: calc(50vh - 20vh);
+    text-align: center;
+}
+
+#titletext2 {
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 5vw;
+    color: white;
+    position: absolute;
+    top: calc(50vh - 25vh);
+    left: calc(50vh - 30vh);
+    text-align: center;
+}
+
+#titletext3 {
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 5vw;
+    color: white;
+    position: absolute;
+    top: calc(50vh - 40vh);
+    left: calc(50vh - 50vh);
+    text-align: center;
+}
+
+
+#titletext4 {
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: white;
+    position: absolute;
+    top: 5vh;
+    margin: 2vw;
+    text-align: left;
+}
+
+#titletext5 {
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: white;
+    position: relative;
+    top: 25vh;
+    margin: 5vw;
+    text-align: left;
+}
+
+#titletext6 {
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 5vw;
+    color: white;
+    position: fixed;
+    top: 20vh;
+    margin: 5vw;
+    left: calc(50vw - 28vw);
+    z-index: -1;
+}
+
+
+
+#puppy1{
+    width: 60vw;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: calc(50vw - 30vw);
+}
+
+#puppy2 {
+    width: 40vw;
+    height: auto;
+    position: absolute;
+    left: calc(50vw - 20vw);
+    bottom: 3vh;
+}
+
+#curtain1 {
+    height: 100vh;
+    width: auto;
+    right: 0;
+    position: absolute;
+}
+
+#curtain2 {
+    height: 100vh;
+    width: auto;
+    left: 0;
+    position: absolute;
+}
+
+#puppy2:hover {
+        animation: swing 2s infinite ease-in-out;
+}
+@keyframes swing {
+    0% {transform: rotate(0deg);}
+    25% {transform: rotate(-20deg);}
+    50% {transform: rotate(0deg);}
+    75% { transform: rotate(20deg);}
+    100% {transform: rotate(0deg);}
+}
+
+
+#user1 {
+    width: auto;
+    height: 80vh;
+    position: relative;
+    background: 0;
+}
+
+#user2 {
+    width: auto;
+    height: 80vh;
+    position: relative;
+}
+
+#user1:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 242, 0.5), 0 0 40px 20px rgba(255, 255, 242, 0.3);
+}
+
+#user2:hover {
+    box-shadow: 0 0 20px 10px rgba(255, 255, 242, 0.5), 0 0 40px 20px rgba(255, 255, 242, 0.3);
+}
+
+
+#button {
+    width: 20vw;
+    height: 12vh;
+    background-color: #ffaab8;
+    position: fixed;
+    top: 50vh;
+    left: 38vw;
+    border-radius: 6vh;
+}
+
+#buttontext {
+    font-family: Garamond;
+    font-weight: bold;
+    font-size: 2.5vw;
+    color: white;
+    position: absolute;
+    margin: 2vw;
+    left: calc(10vw - 6.5vw);
 }
