@@ -4,9 +4,9 @@ function preload() {
   winImg3 = loadImage('dog3.gif');
   winImg4 = loadImage('dog4.gif');
   winImg5 = loadImage('dog5.gif');
-  loseImg1 = loadImage('mydog1.png');
-  loseImg2 = loadImage('mydog2.png');
-  loseImg3 = loadImage('mydog3.png');
+  loseImg1 = loadImage('mydog1.PNG');
+  loseImg2 = loadImage('mydog2.PNG');
+  loseImg3 = loadImage('mydog3.jpg');
 }
 
 function setup() {
