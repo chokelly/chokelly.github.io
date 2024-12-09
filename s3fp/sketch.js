@@ -6,8 +6,7 @@ function preload() {
   winImg5 = loadImage('dog5.gif');
   loseImg1 = loadImage('mydog1.png');
   loseImg2 = loadImage('mydog2.png');
-  // ROUND CORNERS OF THIS PIC
-  loseImg3 = loadImage('mydog3.jpg');
+  loseImg3 = loadImage('mydog3.png');
 }
 
 function setup() {
