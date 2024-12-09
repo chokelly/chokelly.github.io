@@ -1,1 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
+canvas {
+  display: block;
+}
+
+body {
+  background: black;
+  text-align: center;
+}
+
+p {
+  font-family:'courier new', monospace;
+  font-size: 14px;
+  text-align: left;
+  margin-left: 4%;
+}
+
+#lives {
+  color: white;
+}
+
+h1 {
+  font-family:'courier new', monospace;
+}
+
+#heading1 {
+  color:white;
+  font-size:18px;
+}
+
+.restart {
+  width: 85px;
+  height: 30px;
+  background: white;
+  border-radius: 15px;
+  border: none;
+}
+
+.restart:hover {
+  background: red;
+}
