@@ -2,7 +2,10 @@ body {
     margin: 0;
     padding: 0;
     background: #9ecf82;
-    cursor: url('bee.webp'), auto;
+    cursor: auto;
+    /* cursor: pointer; */
+    cursor: url('bee100.webp'), auto;
+    /* cursor: url('bee100.webp'), pointer; */
 }
 
 canvas {
@@ -20,6 +23,10 @@ h1 {
 .flower {
     width: 15vw;
     height: 15vw;
+}
+
+.flower:hover {
+    cursor: url('bee100.webp'), pointer;
 }
 
 #flower1 {

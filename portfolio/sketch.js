@@ -19,7 +19,7 @@ function setup() {
 }
 
 function draw() {
-    background('blue');
+    // background('blue');
 
     for (let i = 0; i < 10; i++) {
         xIndex = round(random(0, 9));
