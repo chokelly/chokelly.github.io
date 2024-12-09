@@ -1,0 +1,516 @@
+#wrapper {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background-color: lightgray;
+  overflow: hidden;
+}
+
+.timesmag {
+  position: absolute;
+  transform: rotate(5deg);
+}
+
+#magcover {
+  margin-left: 200px;
+  margin-top: 25px;
+  width: 400px;
+  height: 550px;
+  background-color: #fff6c7;
+}
+
+#redborder {
+  margin-left: 175px;
+  width: 450px;
+  height: 600px;
+  background-color: #f51616;
+}
+
+#personoftheyear {
+  margin-top: 115px;
+  margin-left: 330px;
+  width: 175px;
+  height: 25px;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.timestitle {
+  margin-left: 3px;
+  margin-top: 13px;
+  position: absolute;
+  font-size: 150px;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to right, grey, lightgrey, white);
+}
+
+#computerborder {
+  margin-top: 200px;
+  margin-left: 250px;
+  width: 300px;
+  height: 200px;
+  background-color: #c7c6c5;
+}
+
+#computer {
+  margin-top: 225px;
+  margin-left: 275px;
+  width: 250px;
+  height: 150px;
+  background: radial-gradient(
+    circle at 75% 10px,
+    white,
+    grey 50%,
+    grey 60%
+  );
+}
+
+#computer:hover {
+  background: radial-gradient(
+    circle at 25% 10px,
+    white,
+    grey 50%,
+    grey 60%
+  );
+}
+
+#computerstand1 {
+  margin-top: 380px;
+  margin-left: 350px;
+  width: 75px;
+  height: 40px;
+  background: linear-gradient(grey, #c7c6c5, grey);
+  transform: perspective(200px) rotate(5deg) rotateX(45deg);
+}
+
+#computerstand2 {
+  margin-top: 389px;
+  margin-left: 339px;
+  width: 99px;
+  height: 75px;
+  background: linear-gradient(to bottom, grey, #c7c6c5);
+  border-radius: 15px;
+  transform: perspective(100px) rotate(5deg) skew(15deg) rotateX(60deg);
+}
+
+#keyboard {
+  margin-top: 460px;
+  margin-left: 250px;
+  width: 300px;
+  height: 70px;
+  background: linear-gradient(white, lightgrey, #c7c6c5);
+  border-radius: 10px;
+  transform: perspective(100px) rotate(5deg) skew(15deg) rotateX(35deg);
+}
+
+#notebook {
+  margin-left: 500px;
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  background-color: #ebf0ed;
+}
+
+#notebookstripe {
+  margin-top: -15px;
+  margin-left: 590px;
+  position: absolute;
+  width: 70px;
+  height: 381px;
+  background-color: #19703f;
+  transform: rotate(-15deg);
+}
+
+#stripecoverup {
+  margin-top: 350px;
+  margin-left: 630px;
+  position: absolute;
+  width: 300px;
+  height: 25px;
+  background-image: linear-gradient(grey, lightgrey, lightgrey);
+}
+
+#notebookcircle {
+  margin-top: 200px;
+  margin-left: 750px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 7px solid #19703f;
+  border-radius: 50%;
+  background-color: #ebf0ed;
+}
+
+#cratebox {
+  margin-top: 115px;
+  margin-left: -175px;
+  position: absolute;
+  width: 300px;
+  height: 425px;
+  background-color: #f2dca5;
+  transform: rotate(7deg);
+}
+
+#crateedge {
+  margin-top: 114px;
+  margin-left: 125px;
+  position: absolute;
+  width: 0px;
+  height: 425px;
+  border-top: transparent solid 10px;
+  border-right: #ad936d solid 10px;
+  border-bottom: transparent solid 10px;
+  transform: rotate(7deg) rotateY(180deg);
+}
+
+.crate {
+  position: absolute;
+  width: 250px;
+  height: 25px;
+  background: linear-gradient(to bottom, grey, lightgrey);
+  transform: rotate(7deg);
+}
+
+#cratehole1 {
+  margin-top: 150px;
+  margin-left: -125px;
+}
+
+#cratehole2 {
+  margin-top: 205px;
+  margin-left: -130px;
+}
+
+#cratehole3 {
+  margin-top: 260px;
+  margin-left: -140px;
+}
+
+#cratehole4 {
+  margin-top: 315px;
+  margin-left: -145px;
+}
+
+#cratehole5 {
+  margin-top: 370px;
+  margin-left: -150px;
+}
+
+#cratehole6 {
+  margin-top: 425px;
+  margin-left: -155px;
+}
+
+#cratehole7 {
+  margin-top: 480px;
+  margin-left: -160px;
+}
+
+#crateside {
+  margin-top: 133px;
+  margin-left: 104px;
+  position: absolute;
+  width: 10px;
+  height: 424px;
+  background-color: #f2dca5;
+  transform: rotate(7deg);
+}
+
+.cards {
+  padding-top: 10px;
+  padding-left: 10px;
+  position: absolute;
+  width: 175px;
+  height: 250px;
+  border-radius: 15px;
+  font-size: 32px;
+}
+
+#cardbox {
+  margin-top: 75px;
+  margin-left: 135px;
+  background-color: #cc0000;
+  border: 7px #faf6e8 solid;
+  border-radius: 3px;
+  transform: rotate(-45deg);
+}
+
+#cardlabel {
+  margin-top: 235px;
+  margin-left: 221px;
+  position: absolute;
+  background-color: #faf6e8;
+  width: 125px;
+  height: 50px;
+  transform: rotate(-45deg);
+}
+
+#card1 {
+  margin-top: 275px;
+  margin-left: 450px;
+  background-color: #ededed;
+  transform: rotate(25deg);
+}
+
+#card1:hover {
+  animation: select 1.75s infinite;
+}
+
+#card2 {
+  margin-top: 400px;
+  margin-left: 475px;
+  background-color: white;
+  transform: rotate(50deg);
+}
+
+#card2:hover {
+  animation: select 1.75s infinite;
+}
+
+#card3 {
+  margin-top: 145px;
+  margin-left: -110px;
+  background-color: #f0f0f0;
+  transform: rotate(85deg);
+}
+
+#card3:hover {
+  animation: select 1.75s infinite;
+}
+
+#card4 {
+  margin-top: 50px;
+  margin-left: -150px;
+  background-color: #dedede;
+  transform: rotate(25deg);
+}
+
+#card4:hover {
+  animation: select 1.75s infinite;
+}
+
+#card5 {
+  margin-top: 300px;
+  margin-left: -100px;
+  background-color: white;
+  transform: rotate(65deg);
+}
+
+#card5:hover {
+  animation: select 1.75s infinite;
+}
+
+#card6 {
+  margin-top: 450px;
+  margin-left: -165px;
+  background-color: #ededed;
+  transform: rotate(85deg);
+}
+
+#card6:hover {
+  animation: select 1.75s infinite;
+}
+
+#card7 {
+  margin-top: 235px;
+  margin-left: -165px;
+  background-color: #e3e3e3;
+  transform: rotate(80deg);
+}
+
+#card7:hover {
+  animation: select 1.75s infinite;
+}
+
+#bottle {
+  margin-top: -85px;
+  margin-left: -90px;
+  width: 250px;
+  height: 125px;
+  background: linear-gradient(black, black, #3b110c);
+  border-radius: 45px;
+  transform: rotate(10deg);
+}
+
+#bottlebottom {
+  margin-top: -100px;
+  margin-left: 125px;
+  width: 30px;
+  height: 100px;
+  background: linear-gradient(to bottom right, grey, #2b1004);
+  border-radius: 50%;
+  transform: rotate(5deg);
+}
+
+#bottleshadow {
+  margin-top: -60px;
+  margin-left: -95px;
+  position: absolute;
+  width: 250px;
+  height: 125px;
+  background: linear-gradient(grey, lightgrey, grey);
+  border-radius: 45px;
+  transform: rotate(10deg);
+}
+
+.hole {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.tab {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+#puzzlepiece1 {
+  margin-top: 5px;
+  margin-left: 510px;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-color: #f0c818;
+  transform: rotate(30deg);
+}
+
+#pp1tab1 {
+  margin-top: -11px;
+  margin-left: 552.5px;
+  background-color: #f0c818;
+}
+
+#pp1tab2 {
+  margin-left: 495px;
+  background-color: #f0c818;
+}
+
+#pp1tab3 {
+  margin-top: 46px;
+  margin-left: 568px;
+  background-color: #f0c818;
+}
+
+#pp1tab4 {
+  margin-top: 61px;
+  margin-left: 507px;
+  background-color: #f0c818;
+}
+
+#puzzlepiece2 {
+  margin-top: 100px;
+  margin-left: 585px;
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  background-color: #f07d43;
+  transform: rotate(65deg);
+}
+
+#pp2tab1 {
+  margin-top: 81px;
+  margin-left: 589px;
+  background-color: #f07d43;
+}
+
+#pp2tab2 {
+  margin-top: 137px;
+  margin-left: 566px;
+  background-color: #f07d43;
+}
+
+#pp2tab3 {
+  margin-top: 157px;
+  margin-left: 624px;
+  background-color: #f07d43;
+}
+
+#pp2tab4 {
+  margin-top: 102px;
+  margin-left: 644px;
+  background-color: #f07d43;
+}
+
+#puzzlepiece3 {
+  margin-top: 200px;
+  margin-left: 530px;
+  position: absolute;
+  width: 75px;
+  height: 65px;
+  background-color: #f0c818;
+  transform: rotate(5deg);
+}
+
+#pp3hole1 {
+  margin-top: 195px;
+  margin-left: 557px;
+  background-color: #fff6c7;
+}
+
+#pp3hole2 {
+  margin-top: 245px;
+  margin-left: 553px;
+  background-color: #ededed;
+}
+
+#pp3tab1 {
+  margin-top: 215px;
+  margin-left: 508px;
+  background-color: #f0c818;
+}
+
+#pp3tab2 {
+  margin-top: 222px;
+  margin-left: 601px;
+  background-color: #f0c818;
+}
+
+#puzzlepiece4 {
+  margin-top: 400px;
+  margin-left: 175px;
+  position: absolute;
+  width: 75px;
+  height: 65px;
+  background-color: #f07d43;
+  transform: rotate(25deg);
+}
+
+#pp4hole1 {
+  margin-top: 399px;
+  margin-left: 210px;
+  background-color: #fff6c7;
+}
+
+#pp4hole2 {
+  margin-top: 443px;
+  margin-left: 190px;
+  background-color: #fff6c7;
+}
+
+#pp4tab1 {
+  margin-top: 440px;
+  margin-left: 242px;
+  background-color: #f07d43;
+}
+
+#pp4tab2 {
+  margin-top: 400px;
+  margin-left: 157px;
+  background-color: #f07d43;
+}
+
+@keyframes select {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
