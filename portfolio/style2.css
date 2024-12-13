@@ -7,7 +7,7 @@ body {
 }
 
 h1 {
-    margin-top: 5%;
+    margin-top: 5vh;
     font-family:'Courier New', Courier, monospace;
     font-size: 24px;
     color: white;
@@ -24,10 +24,6 @@ h1 {
 #flower9 {
     width: 100vw;
     height: 100vw;
-}
-
-a {
-    cursor: url('bee50.webp'), pointer;
 }
 
 .stem {
@@ -144,21 +140,173 @@ a {
     margin-bottom: 28vh;
 }
 
+#seed1radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed1radio:checked ~ #screen > #week2 {
+    display: block;
+}
+#seed1radio:checked ~ #title1 {
+    display: none;
+}
+#seed1radio:checked ~ #title2 {
+    display: block;
+}
+#seed2radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed2radio:checked ~ #screen > #week3 {
+    display: block;
+}
+#seed2radio:checked ~ #title1 {
+    display: none;
+}
+#seed2radio:checked ~ #title2 {
+    display: block;
+}
+#seed3radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed3radio:checked ~ #screen > #week4 {
+    display: block;
+}
+#seed3radio:checked ~ #title1 {
+    display: none;
+}
+#seed3radio:checked ~ #title2 {
+    display: block;
+}
+#seed4radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed4radio:checked ~ #screen > #week5 {
+    display: block;
+}
+#seed4radio:checked ~ #title1 {
+    display: none;
+}
+#seed4radio:checked ~ #title2 {
+    display: block;
+}
+#seed5radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed5radio:checked ~ #screen > #week6 {
+    display: block;
+}
+#seed5radio:checked ~ #title1 {
+    display: none;
+}
+#seed5radio:checked ~ #title2 {
+    display: block;
+}
+#seed6radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed6radio:checked ~ #screen > #week8 {
+    display: block;
+}
+#seed6radio:checked ~ #title1 {
+    display: none;
+}
+#seed6radio:checked ~ #title2 {
+    display: block;
+}
+#seed7radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed7radio:checked ~ #screen > #week9 {
+    display: block;
+}
+#seed7radio:checked ~ #title1 {
+    display: none;
+}
+#seed7radio:checked ~ #title2 {
+    display: block;
+}
+#seed8radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed8radio:checked ~ #screen > #week10 {
+    display: block;
+}
+#seed8radio:checked ~ #title1 {
+    display: none;
+}
+#seed8radio:checked ~ #title2 {
+    display: block;
+}
+#seed9radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed9radio:checked ~ #screen > #week12 {
+    display: block;
+}
+#seed9radio:checked ~ #title1 {
+    display: none;
+}
+#seed9radio:checked ~ #title2 {
+    display: block;
+}
+#seed10radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed10radio:checked ~ #screen > #week13 {
+    display: block;
+}
+#seed10radio:checked ~ #title1 {
+    display: none;
+}
+#seed10radio:checked ~ #title2 {
+    display: block;
+}
+#seed11radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed11radio:checked ~ #screen > #week14 {
+    display: block;
+}
+#seed11radio:checked ~ #title1 {
+    display: none;
+}
+#seed11radio:checked ~ #title2 {
+    display: block;
+}
+#seed12radio:checked ~ #screen {
+    background: #ff9e96;
+}
+#seed12radio:checked ~ #screen > #week15 {
+    display: block;
+}
+#seed12radio:checked ~ #title1 {
+    display: none;
+}
+#seed12radio:checked ~ #title2 {
+    display: block;
+}
+
+input {
+    display: none;
+}
+label {
+    cursor: url('bee50.webp'), auto;
+}
+
 #screen {
     display: flex;
     position: absolute;
-    margin-top: 2vh;
+    /* margin-top: 5vh; */
     margin-left: 10vw;
-    background: #ff9e96;
+    background: #d4564c;
     width: 75vw;
-    height: 40vh;
+    height: 30vh;
     border-radius: 15px;
     padding: 2%;
 }
 
 .text {
     font-family:'Courier New', Courier, monospace;
-    font-size: 12px;
+    font-size: 16px;
     color: white;
     overflow-y: auto;
 }
@@ -166,17 +314,36 @@ a {
 #week2 {
     display: none;
 }
-#seed1:hover ~ #screen > #week2 {
-    display: block;
-}
-
 #week3 {
     display: none;
 }
-#seed2:hover ~ #screen > #week3 {
-    display: block;
-}
-
 #week4 {
+    display: none;
+}
+#week5 {
+    display: none;
+}
+#week6 {
+    display: none;
+}
+#week8 {
+    display: none;
+}
+#week9 {
+    display: none;
+}
+#week10 {
+    display: none;
+}
+#week12 {
+    display: none;
+}
+#week13 {
+    display: none;
+}
+#week14 {
+    display: none;
+}
+#week15 {
     display: none;
 }
