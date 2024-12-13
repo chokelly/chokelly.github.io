@@ -18,6 +18,7 @@ h1 {
 }
 
 .flower {
+    position: absolute;
     width: 15vw;
     height: 15vw;
 }
@@ -27,39 +28,40 @@ a {
 }
 
 #flower1 {
-    margin-left: 5%;
+    margin-top: 5vh;
+    margin-left: 5vw;
 }
 #flower2 {
-    margin-top: 12%;
-    margin-left: 10%;
+    margin-top: 30vh;
+    margin-left: 10vw;
 }
 #flower3 {
-    margin-top: 15%;
-    margin-left: 3%;
+    margin-top: 60vh;
+    margin-left: 10vw;
 }
 #flower4 {
-    margin-top: -65%;
-    margin-left: 45%;
+    margin-top: 10vh;
+    margin-left: 45vw;
 }
 #flower5 {
-    margin-top: -35%;
-    margin-left: 35%;
+    margin-top: 30vh;
+    margin-left: 35vw;
 }
 #flower6 {
-    margin-top: -10%;
-    margin-left: 45%;
+    margin-top: 55vh;
+    margin-left: 45vw;
 }
 #flower7 {
-    margin-top: -75%;
-    margin-left: 75%;
+    margin-top: 20vh;
+    margin-left: 75vw;
 }
 #flower8 {
-    margin-top: -45%;
-    margin-left: 65%;
+    margin-top: 40vh;
+    margin-left: 65vw;
 }
 #flower9 {
-    margin-top: -20%;
-    margin-left: 65%;
+    margin-top: 70vh;
+    margin-left: 65vw;
 }
 
 #flower5:hover {
