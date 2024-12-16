@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: #d4564c;
     /* #f55c52 */
-    cursor: url('bee50.webp'), auto;
+    cursor: url('bee1.png'), default;
 }
 
 h1 {
@@ -89,6 +89,7 @@ h1 {
 }
 .seed:hover {
     background: #ff9e96;
+    cursor: url('bee2.png'), pointer;
 }
 
 #seed1 {
