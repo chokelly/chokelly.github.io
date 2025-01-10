@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+h1 {
+    font-family: "Inconsolata", serif;
+    /* font-optical-sizing: auto; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+
+h3 {
+    font-family: "Inconsolata", serif;
+    /* font-optical-sizing: auto; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+}
+
+h5 {
+    font-family: "Inconsolata", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: "Inconsolata", serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+}
+#return:hover > p {
+    color: orangered;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+a:hover {
+    color: orangered;
+}
+
+#return {
+    width: auto;
+    height: auto;
+    border: 3px solid lightgrey;
+}
+  
+#flex {
+    border: white 1px solid;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    margin: 15vh 10vw;
+    /* height: 100px; */
+    /* overflow-y: auto; */
+    border: 3px solid lightgrey;
+    /* align-items: center; */
+    justify-content: center;
+}
+  
+#flex img {
+    width: 100%;
+    border-radius: 7%;
+}

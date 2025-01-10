@@ -1,11 +1,92 @@
 body {
     margin: 0;
     padding: 0;
-    background: black;
+    background: white;
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    text-align: center;
+    font-family: "Inconsolata", serif;
+    /* font-optical-sizing: auto; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+
+h3 {
+    font-family: "Inconsolata", serif;
+    /* font-optical-sizing: auto; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: black;
+}
+
+p {
+    font-family: "Inconsolata", serif;
+    /* font-optical-sizing: auto; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+#title {
+    top: 5vw;
+    position: relative;
+    width: 100vw;
+    height: 15vh;
+    border: 3px solid lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+#flex {
+    border: white 1px solid;
+    width: 80vw;
+    /* height: 30vh; */
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 10vw;
+    /* height: 100px; */
+    /* overflow-y: auto; */
+    /* border: 3px solid lightgrey; */
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#cases {
+    border: white 1px solid;
+    width: 80vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 10vw;
+    /* height: 100px; */
+    /* overflow-y: auto; */
+    border: 3px solid lightgrey;
+    border-radius: 15%;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.cases {
+    top: 10vw;
+    left: 7.5vw;
+    position: relative;
+    width: 85vw;
+    height: 25vw;
+    border: 3px solid lightgrey;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
